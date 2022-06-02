@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 250px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    background-color: #76b900;
+}
+
+#darkSwitch {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+[data-theme="dark"] {
+    background-color: #262626 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] table {
+    color: #eee;
+}
