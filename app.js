@@ -12,6 +12,10 @@ app.get('/', function (req, res) {
   res.render('index')
 })
 
+app.get('/info', function (req, res) {
+  res.render('info')
+})
+
 let port = 3001; // Because I use GFNGames on 3000
 
 app.listen(port, function () {
